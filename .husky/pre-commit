@@ -1,0 +1,2 @@
+echo "[PRE COMMIT HOOK]"
+npx lint-staged

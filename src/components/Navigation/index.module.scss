@@ -1,0 +1,22 @@
+.navigation-container {
+	display: flex;
+	gap: 14px;
+	align-items: center;
+	svg {
+		height: 24px;
+		width: auto;
+	}
+	.icon-container {
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.location-container {
+		display: flex;
+		align-items: center;
+		gap: 14px;
+	}
+}

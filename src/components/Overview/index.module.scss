@@ -1,0 +1,87 @@
+.overview-wrapper {
+	display: flex;
+	gap: 40px;
+	@media (width < 1300px) {
+		flex-direction: column;
+	}
+	.cta-container {
+		flex: 1 0 400px;
+		border-radius: 16px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+		padding: 100px 20px;
+		background: url('/images/cta-background.jpeg') no-repeat center;
+		background-size: cover;
+		label {
+			text-align: center;
+			color: #060609;
+			font-size: 24px;
+			font-weight: 600;
+			background: rgb(217 217 217 / 50%);
+			box-shadow: 0 4px 15px 5px rgb(0 0 0 / 25%);
+			padding: 10px;
+			border-radius: 15px;
+			line-height: 29.26px;
+		}
+	}
+}
+.overview-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	@media (width <= 480px) {
+		flex-flow: column nowrap;
+	}
+	.overview-panel {
+		flex: 1 0 calc(50% - 40px);
+		border-radius: 15px;
+		padding: 26px 14px;
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+		justify-content: space-between;
+		label {
+			font-weight: 500;
+			text-align: left;
+		}
+		.chart-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			.chart {
+				min-height: 65px;
+				display: flex;
+				justify-content: center;
+				overflow: hidden;
+			}
+		}
+		.footer-container {
+			font-size: 14px;
+			font-weight: 400;
+			display: flex;
+			justify-content: space-between;
+			&.single {
+				justify-content: center;
+				span {
+					text-align: center !important;
+				}
+			}
+			.detail {
+				flex: 1 0 50%;
+				font-size: 14px;
+				font-weight: 500;
+				color: #818085;
+				&:first-of-type {
+					font-size: 20px;
+					font-weight: 600;
+					color: inherit;
+				}
+				&:last-of-type {
+					text-align: right;
+				}
+			}
+		}
+	}
+}

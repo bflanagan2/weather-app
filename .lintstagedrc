@@ -1,0 +1,6 @@
+{
+	"*": "prettier --list-different --write",
+	"*.{js,jsx}": "eslint --fix --max-warnings 0",
+	"*.{ts,tsx}": "eslint --fix --max-warnings 0",
+	"*.{css,scss}": "stylelint --allow-empty-input  --fix"
+}

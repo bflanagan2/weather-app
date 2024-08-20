@@ -1,0 +1,42 @@
+.other-cities-container {
+	margin-top: 40px;
+	h2 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 16px;
+		font-weight: 500;
+		span {
+			font-size: 14px;
+			font-weight: 400;
+		}
+	}
+	.panels-container {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		.panel {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px;
+			border-radius: 15px;
+			.details-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				gap: 10px;
+				label {
+					font-weight: 400;
+					color: #777;
+				}
+				.city {
+					font-size: 20px;
+				}
+				.forecast {
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+/.husky
+.eslintrc
+.prettierrc
+.lintstagedrc
+.prettierignore
+yarn.lock

@@ -1,0 +1,13 @@
+.avatar-container {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	.avatar {
+		height: 100%;
+		width: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
