@@ -8,7 +8,7 @@ Run:
 
 Demo:
 
-<link>
+<link>https://main.d382j9j9xfqg6p.amplifyapp.com/
 
 Notes:
 
@@ -19,3 +19,4 @@ Notes:
 - Light/Dark theme should work.
 - Responsive is pretty basic (again, tight deadline).
 - Some of the data is just placeholder (login/avatar, other cities, chance of rain, UV index, visibility). Some of this is because the API doesn't have the data and some is because of the time crunch.
+- Yeah, the animated background is a bit over-the-top, but a blank attract mode just seemed too boring.
