@@ -6,7 +6,7 @@ Install dependencies:
 Run:
 `yarn run dev`
 
-Demo:<link>https://main.d382j9j9xfqg6p.amplifyapp.com/
+Demo: <link>https://main.d382j9j9xfqg6p.amplifyapp.com/
 
 Notes:
 - I was under a pretty extreme tiime crunch so there's only 1 page (dashboard).
